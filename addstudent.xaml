@@ -1,0 +1,29 @@
+﻿<Window x:Class="GoogleForms.addstudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoogleForms"
+        mc:Ignorable="d"
+        Title="Add student" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid Background="#FFEDF4FC">
+            <DataGrid x:Name="DATA" Margin="344,0,0,0" SelectionChanged="DATA_SelectionChanged_2"></DataGrid>
+
+            <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="famTB" HorizontalAlignment="Left" Margin="110,27,0,0" Text="Surname" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="famTB_TextChanged"  FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+            <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="imayTB" HorizontalAlignment="Left" Margin="110,61,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+            <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="otchTB" HorizontalAlignment="Left" Margin="110,95,0,0" Text="Middle name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+            <Button BorderThickness="2" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" BorderBrush="#FF87BEEA" Foreground="#FF87BEEA" FontWeight="Bold"  x:Name="insertBtn" Content="Add" HorizontalAlignment="Left" Margin="29,333,0,0" VerticalAlignment="Top" Click="insertBtn_Click" Width="70"/>
+            <Button BorderThickness="2" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" BorderBrush="#FF87BEEA" Foreground="#FF87BEEA" FontWeight="Bold" x:Name="updateBtn" Content="Update" HorizontalAlignment="Left" Margin="136,333,0,0" VerticalAlignment="Top" Click="updateBtn_Click" Width="70"/>
+            <Button BorderThickness="2" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" BorderBrush="#FF87BEEA" Foreground="#FF87BEEA" FontWeight="Bold" x:Name="deleteBtn" Content="Delete" HorizontalAlignment="Left" Margin="245,333,0,0" VerticalAlignment="Top" Click="deleteBtn_Click" Width="70"/>
+            <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="loginTB" HorizontalAlignment="Left" Margin="110,255,0,0" Text="Login" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+            <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="passTB" HorizontalAlignment="Left" Margin="110,286,0,0" Text="Pass" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+            <ComboBox Name="idGroup" HorizontalAlignment="Left" Margin="110,216,0,0" VerticalAlignment="Top" Width="120" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" Foreground="#FF87BEEA"/>
+            <ComboBox x:Name="idStudent" HorizontalAlignment="Left" Margin="110,177,0,0" VerticalAlignment="Top" Width="120" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" Foreground="#FF87BEEA"/>
+            <Label FontFamily="Microsoft JhengHei UI" FontSize="12" Content="ID student" Margin="10,179,683.6,205" Foreground="#FF87BEEA"/>
+            <Label FontFamily="Microsoft JhengHei UI" FontSize="12" Content="ID group" Margin="10,216,683.6,164" Foreground="#FF87BEEA"/>
+            <ComboBox x:Name="idDolj" HorizontalAlignment="Left" Margin="110,134,0,0" VerticalAlignment="Top" Width="120" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" Foreground="#FF87BEEA"/>
+            <Label FontFamily="Microsoft JhengHei UI" FontSize="12" Content="ID doljnosti" Margin="10,134,683.6,250" Foreground="#FF87BEEA"/>
+        </Grid>
+    </Grid>
+</Window>

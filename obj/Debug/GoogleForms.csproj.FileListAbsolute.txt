@@ -1,0 +1,54 @@
+C:\GoogleForms\obj\Debug\GoogleForms.csprojAssemblyReference.cache
+C:\GoogleForms\obj\Debug\admin.g.cs
+C:\GoogleForms\obj\Debug\MainWindow.g.cs
+C:\GoogleForms\obj\Debug\prepod.g.cs
+C:\GoogleForms\obj\Debug\student.g.cs
+C:\GoogleForms\obj\Debug\App.g.cs
+C:\GoogleForms\obj\Debug\GoogleForms_MarkupCompile.cache
+C:\GoogleForms\obj\Debug\GoogleForms_MarkupCompile.lref
+C:\GoogleForms\bin\Debug\GoogleForms.exe.config
+C:\GoogleForms\bin\Debug\GoogleForms.exe
+C:\GoogleForms\bin\Debug\GoogleForms.pdb
+C:\GoogleForms\obj\Debug\admin.baml
+C:\GoogleForms\obj\Debug\MainWindow.baml
+C:\GoogleForms\obj\Debug\prepod.baml
+C:\GoogleForms\obj\Debug\student.baml
+C:\GoogleForms\obj\Debug\GoogleForms.g.resources
+C:\GoogleForms\obj\Debug\GoogleForms.Properties.Resources.resources
+C:\GoogleForms\obj\Debug\GoogleForms.csproj.GenerateResource.cache
+C:\GoogleForms\obj\Debug\GoogleForms.csproj.CoreCompileInputs.cache
+C:\GoogleForms\obj\Debug\GoogleForms.exe
+C:\GoogleForms\obj\Debug\GoogleForms.pdb
+C:\GoogleForms\obj\Debug\addprepod.g.cs
+C:\GoogleForms\obj\Debug\addstudent.g.cs
+C:\GoogleForms\obj\Debug\addprepod.baml
+C:\GoogleForms\obj\Debug\addstudent.baml
+C:\GoogleForms\obj\Debug\results.g.cs
+C:\GoogleForms\obj\Debug\results.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\bin\Debug\GoogleForms.exe.config
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\bin\Debug\GoogleForms.exe
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\bin\Debug\GoogleForms.pdb
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\GoogleForms.csprojAssemblyReference.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\addprepod.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\addstudent.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\admin.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\MainWindow.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\prepod.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\results.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\student.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\App.g.cs
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\GoogleForms_MarkupCompile.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\GoogleForms_MarkupCompile.lref
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\addprepod.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\addstudent.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\admin.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\MainWindow.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\prepod.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\results.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\student.baml
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\GoogleForms.g.resources
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\GoogleForms.Properties.Resources.resources
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\GoogleForms.csproj.GenerateResource.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\GoogleForms.csproj.CoreCompileInputs.cache
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\GoogleForms.exe
+C:\Users\Ангелина\OneDrive\Рабочий стол\классрум\obj\Debug\GoogleForms.pdb

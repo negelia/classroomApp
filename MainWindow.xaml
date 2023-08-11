@@ -1,0 +1,20 @@
+﻿<Window x:Class="GoogleForms.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoogleForms"
+        mc:Ignorable="d"
+        Title="Online Education" Height="450" Width="400">
+    <Grid Background="#FFEDF4FC">
+        <Separator Margin="97,108,91.6,302" Background="#FFC7C7C7" />
+        <TextBox x:Name="loginTB" Height="30" Margin="97,153,91.6,230" BorderThickness="0" FontFamily="Microsoft JhengHei UI" FontSize="15" Foreground="#FF87BEEA"/>
+        <TextBox x:Name="passTB" Height="30" Margin="97,233,91.6,149" BorderThickness="0" FontFamily="Microsoft JhengHei UI" FontSize="15" Foreground="#FF87BEEA"/>
+        <Label FontFamily="Microsoft JhengHei UI" FontSize="20" Content="Sign in" Margin="158,63,153.6,312" Foreground="#FF87BEEA" FontWeight="Bold"/>
+        <Label FontFamily="Microsoft JhengHei UI" FontSize="15" Content="Login :" Margin="31,153,299.6,219" Foreground="#FF87BEEA"/>
+        <Button x:Name="vhodBtn" Click="vhodBtn_Click" BorderThickness="2" Content="Done" HorizontalAlignment="Left" Margin="156,309,0,0" VerticalAlignment="Top" Width="78" Height="39" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" BorderBrush="#FF87BEEA" Foreground="#FF87BEEA" FontWeight="Bold" />
+        <Label FontFamily="Microsoft JhengHei UI" FontSize="15" Content="Pass :" Margin="31,231,306.6,146" Foreground="#FF87BEEA"/>
+        <DataGrid Name="DATA2" Height="1" VerticalAlignment="Bottom" Visibility="Hidden"></DataGrid>
+        <DataGrid Name="DATA3" Height="1" VerticalAlignment="Bottom" Visibility="Hidden"></DataGrid>
+    </Grid>
+</Window>

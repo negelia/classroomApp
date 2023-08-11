@@ -1,0 +1,25 @@
+﻿<Window x:Class="GoogleForms.addprepod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoogleForms"
+        mc:Ignorable="d"
+        Title="Add teacher" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid Background="#FFEDF4FC">
+        <DataGrid x:Name="DATA" SelectedCellsChanged="DATA_SelectedCellsChanged" Margin="344,0,0,0" BorderBrush="White" BorderThickness="3"/>
+
+        <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="famTB" HorizontalAlignment="Left" Margin="110,41,0,0" Text="Surname" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="famTB_TextChanged"  FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+        <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="imayTB" HorizontalAlignment="Left" Margin="110,78,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+        <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="otchTB" HorizontalAlignment="Left" Margin="110,121,0,0" Text="Middle name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+        <Button BorderThickness="2" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" BorderBrush="#FF87BEEA" Foreground="#FF87BEEA" FontWeight="Bold"  x:Name="insertBtn" Content="Add" HorizontalAlignment="Left" Margin="29,333,0,0" VerticalAlignment="Top" Click="insertBtn_Click" Width="70"/>
+        <Button BorderThickness="2" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" BorderBrush="#FF87BEEA" Foreground="#FF87BEEA" FontWeight="Bold" x:Name="updateBtn" Content="Update" HorizontalAlignment="Left" Margin="136,333,0,0" VerticalAlignment="Top" Click="updateBtn_Click" Width="70"/>
+        <Button BorderThickness="2" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" BorderBrush="#FF87BEEA" Foreground="#FF87BEEA" FontWeight="Bold" x:Name="deleteBtn" Content="Delete" HorizontalAlignment="Left" Margin="245,333,0,0" VerticalAlignment="Top" Click="deleteBtn_Click" Width="70"/>
+        <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="loginTB" HorizontalAlignment="Left" Margin="110,243,0,0" Text="Login" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+        <TextBox BorderBrush="White" BorderThickness="3" Foreground="#FF87BEEA" x:Name="passTB" HorizontalAlignment="Left" Margin="110,286,0,0" Text="Pass" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Microsoft JhengHei UI" FontSize="12"/>
+        <ComboBox Name="idPrepod" HorizontalAlignment="Left" Margin="110,197,0,0" VerticalAlignment="Top" Width="120" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" Foreground="#FF87BEEA"/>
+        <ComboBox x:Name="idDolj" HorizontalAlignment="Left" Margin="110,156,0,0" VerticalAlignment="Top" Width="120" FontFamily="Microsoft JhengHei UI" FontSize="15" Background="White" Foreground="#FF87BEEA"/>
+        <Label FontFamily="Microsoft JhengHei UI" FontSize="12" Content="ID dolgnosti" Margin="10,156,683.6,228" Foreground="#FF87BEEA"/>
+        <Label FontFamily="Microsoft JhengHei UI" FontSize="12" Content="ID teacher" Margin="10,198,683.6,182" Foreground="#FF87BEEA"/>
+    </Grid>
+</Window>
